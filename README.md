@@ -1,4 +1,4 @@
-# Student Grade Book in C#
+# Student Grades in C#
 
 **Author**: Harry Stuart Curtis
 
@@ -8,7 +8,11 @@
 
 ## Introduction
 
-A simple application in C# designed to show the grades of four students in table format. The test scores of the students are inserted as arrays of integers. Next, the average test score is calculated and assigned to a letter grade, based on a pre-determined grading system. Finally, the table is written to the console in the correct format.
+A simple application in C# designed to present student grades in the command line. 
+
+The first application, the Gradebook, shows the grades of four students in table format. The test scores of the students are inserted as arrays of integers. Next, the average test score is calculated and assigned to a letter grade, based on a pre-determined grading system. Finally, the table is written to the console in the correct format.
+
+The second application, GPA, calculates the GPA of a student based on an array of course names and letter grades. The grades are compared to a preset list of courses and their credit hours, which allows for the calculation of a grade-point average. The courses are then written to the console, along with the final GPA.
 
 ## Getting Started
 
@@ -24,7 +28,7 @@ Ensure that Microsoft .NET Framework is installed on your computer. You can down
 
 2. Next, clone the repository to your current working directory.
 
-    `git clone `
+    `git clone https://github.com/Rustic-Citrus/csharp-grades.git`
 
 3. Navigate into the project directory.
 
